@@ -2,4 +2,5 @@
 
 set -e
 
-exec apache2ctl start
+source /etc/apache2/envvars
+exec apache2 -D FOREGROUND

@@ -4,6 +4,8 @@ MAINTAINER Youssef Bouhjira
 ADD scripts /build 
 RUN /build/install.sh
 
+RUN /usr/sbin/enable_insecure_key
+
 EXPOSE 80 3306
 
 CMD ["sbin/my_init"]
