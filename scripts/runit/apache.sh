@@ -2,4 +2,4 @@
 
 set -e
 
-exec /usr/sbin/apache2
+exec apache2ctl start
