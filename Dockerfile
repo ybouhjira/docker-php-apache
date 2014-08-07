@@ -6,6 +6,6 @@ RUN /build/install.sh
 
 RUN /usr/sbin/enable_insecure_key
 
-EXPOSE 80 3306
+EXPOSE 80
 
 CMD ["sbin/my_init"]
