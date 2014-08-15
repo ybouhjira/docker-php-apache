@@ -1,8 +1,7 @@
-# LAMP stack container
+# PHP & Apache
 
  - apache
  - php
- - php-apc
  - php-gd
  - php-memcached
- - drush ( for Drupal )
+ - drush
